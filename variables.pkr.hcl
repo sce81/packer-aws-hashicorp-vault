@@ -40,3 +40,13 @@ variable "APPNAME" {
     description     = "Hashicorp App to install"
     sensitive       = false
 }
+
+variable "vpc_tag" {
+    description     = "Name tag of VPC"
+    sensitive       = false
+}
+
+variable "build_subnet_tag" {
+    description     = "Name tag of Subent to build image in"
+    sensitive       = false
+}
